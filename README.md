@@ -1,4 +1,4 @@
-# Xadrez com Javascript
+# ♟️ Xadrez com Javascript
 
 Sobre o projeto: 
 
