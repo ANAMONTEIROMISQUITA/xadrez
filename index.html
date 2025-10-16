@@ -6,3 +6,27 @@
   <title>Xadrez dois jogadores</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>♟️ Xadrez </h1>
+      <div class="controls">
+        <button id="resetBtn" type="button">Reiniciar</button>
+      </div>
+    </header>
+        <section class="status">
+    <div id="turnInfo">Vez das Brancas</div>
+    <div id="checkInfo" class="warn hidden">Xeque!</div>
+    </section>
+
+    <section id="board" class="board" aria-label="Tabuleiro de xadrez"></section>
+
+    <footer class="legend">
+      <p>Dica: clique para selecionar uma peça e depois clique no destino. Casas válidas ficam destacadas.</p>
+      <p><strong>Implementado:</strong> movimentos legais, capturas, xeque, promoção para rainha. <strong>Pendentes:</strong> roque, en passant, empate por afogamento/50 lances.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
